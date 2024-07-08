@@ -9,7 +9,7 @@ export async function POST(req: Request) {
   const { messages } = await req.json();
 
   const result = await streamText({
-    model: openai('gpt-4o'),
+    model: openai('gpt-dfddfd'),
     system: `you are a chatbot that only answers in pirate talk`,
     messages,
     
